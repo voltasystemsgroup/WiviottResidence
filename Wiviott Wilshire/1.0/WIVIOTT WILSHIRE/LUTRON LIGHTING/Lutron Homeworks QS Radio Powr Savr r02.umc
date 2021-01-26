@@ -1,0 +1,94 @@
+[
+Version=1
+]
+[
+ObjTp=FSgntr
+Sgntr=UserMacro
+RelVrs=4.01.10
+IntStrVrs=2
+MinSMWVrs=2.05.04
+
+MinTIOVrs=0
+SavedBy=SMW3.02.04
+]
+[
+ObjTp=Hd
+S0Nd=1
+S1Nd=2
+SLNd=3
+PrNm=Lutron Homeworks QS Radio Powr Savr r02.umc
+DbVr=36.05.015.00
+DvcDbVr=47.05.005.00
+DlrNm=Lutron
+Incl=362,378,380,405,407,408,409,478,522,537,554,586,590,611,624,767,830,883,1032,1062,1079,1134,1157,1199,1220,1222,1299,1348,1439,1472,1473,1499,1746,1803,1975,2229,2354,2514,2523,2532,3427,3454,3567,1766,2574,2651,2817,2886,2938,2947,3181,3197,3233,3710,
+McNm=Lutron RadioRA2 Maestro Dimmer r01
+SmVr=850
+DvVr=850
+TpN1=1
+TpN2=2
+TpN3=3
+TpN4=4
+TpN5=5
+PdfHelp=Lutron Homeworks QS Modules for Crestron User Guide r02.pdf
+DT=(Logic)
+DST=Logic
+Mfg=(Logic)
+APg=0
+StdCmd=0
+FltTmp=1
+FpCS=0
+EnType=3
+ZeroOnIoOk=0
+]
+[
+ObjTp=Bk
+Nm1=\
+Sx1=0
+Sy1=0
+Mx1=0
+]
+[
+ObjTp=Symbol
+Name=Lutron Homeworks QS Radio Powr Savr r02
+Code=1
+SmplCName=Lutron Homeworks QS Radio Powr Savr r02.umc
+Smpl-C=3
+CompilerTimePrecision=Single_Or_Double_Precision
+SMWRev=2.05.22
+TIORev=0
+HelpID=1055
+PdfHelp=Lutron Homeworks QS Modules for Crestron User Guide r02.pdf
+DT=(Logic)
+DST=Logic
+Mfg=(Logic)
+APg=0
+StdCmd=0
+FltTmp=1
+FpCS=0
+NumFixedInputs=2
+NumFixedOutputs=2
+NumFixedParams=1
+MinVariableInputs=0
+MinVariableInputsList2=0
+MinVariableInputsList3=0
+MinVariableOutputs=0
+MinVariableOutputsList2=0
+MinVariableOutputsList3=0
+MinVariableParams=0
+SymbolTree=6
+InputSigType1=Digital|Analog|Serial|String
+InputSigType2=Serial
+ParamSigType1=String
+InputCue1=[~UNUSED~]
+InputCue2=RX$_FROM_FB_PROCESSOR
+OutputCue1=OCCUPIED_FB
+OutputCue2=UNOCCUPIED_FB
+ParamCue1=INTEGRATION_ID
+MPp=1
+Pp1=1
+FileName=Lutron Homeworks QS Radio Powr Savr r02.umc
+EncodingType=3
+ZeroOnIoOk=0
+]
+FeSchVr=001
+¶¬ÊäæÒŞÜzbº¶ÄÔ¨àzŒ¦ÎÜèä¦ÎÜèäzªæÊäšÂÆäŞ¤ÊØ¬äæzh\`b\b`’Üè¦èä¬äæzdšÒÜ¦š®¬äæzd\`j\<d:d>šÒÜ¨’¬äæz`¦ÂìÊÈ„òz¦š®f\`d\`hº¶ÄÔ¨àzÈ¦`œÈzb¦bœÈzd¦˜œÈzf äœÚz˜êèäŞÜ@ŞÚÊîŞäÖæ@¢¦@¤ÂÈÒŞ@ Şîä@¦Âìä@ä`d\êÚÆˆÄ¬äzfl\`j\`bj\<d:`>ˆìÆˆÄ¬äzhn\`j\<d:`>j\<d:`>ˆØäœÚz˜êèäŞÜ’ÜÆØzfldXfnpXfp`Xh`jXh`nXh`pXh`rXhnpXj<d:d>XjfnX<d:j>hXjplXjr`Xl<d:b>XldhXnlnXpf`X<d:p>fXb`fdXb`ldXb`nrX<d:b>fhX<d:b>jnX<d:b><d:r>Xb<d:d>`Xb<f:d>Xbd<d:r>XbfhpXbhfrXbhndXbhnfXbh<d:r>XbnhlXbp`fXbrnjX<f:d>rXdfjhXdjbhXdjdfXdjfdXfhdnXfhjhXfjlnXbn<d:l>XdjnhXdljbXdpbnXd<d:p>lXdrfpXdrhnXfbpbXfbrnXfd<d:f>Xfnb`XšÆœÚz˜êèäŞÜ@¤ÂÈÒŞ¤‚d@šÂÊæèäŞ@ˆÒ<d:Ú>Êä@ä`b¦Ú¬äzpj`ˆì¬äzpj`¨àœbzb¨àœdzd¨àœfzf¨àœhzh¨àœjzj ÈÌÊØàz˜êèäŞÜ@ŞÚÊîŞäÖæ@¢¦@šŞÈêØÊæ@ÌŞä@†äÊæèäŞÜ@ªæÊä@êÒÈÊ@ä`d\àÈÌˆ¨zP˜ŞÎÒÆRˆ¦¨z˜ŞÎÒÆšÌÎzP˜ŞÎÒÆR‚ Îz`¦èÈ†ÚÈz`ŒØè¨ÚàzbŒà†¦z`ŠÜ¨òàÊzf´ÊäŞÜ’ŞÖz`º¶ÄÔ¨àz„ÖœÚbz¸¦ğbz`¦òbz`šğbz`º¶ÄÔ¨àz¦òÚÄŞØœÂÚÊz˜êèäŞÜ@ŞÚÊîŞäÖæ@¢¦@¤ÂÈÒŞ@ Şîä@¦Âìä@ä`d†ŞÈÊzb¦ÚàØ†œÂÚÊz˜êèäŞÜ@ŞÚÊîŞäÖæ@¢¦T  TrbbĞâæTŠ  T@¤ÂÈÒŞ@ Şîä@¦Âìä@ä`d\êÚÆ¦ÚàØZ†zf†ŞÚàÒØÊä¨ÒÚÊ äÊÆÒæÒŞÜz¦ÒÜÎØÊ¾ä¾ˆŞêÄØÊ¾ äÊÆÒæÒŞÜ¦š®¤Êìzd\`j\<d:d>¨’¤Êìz`ÊØà’ˆzb`<d:j> ÈÌÊØàz˜êèäŞÜ@ŞÚÊîŞäÖæ@¢¦@šŞÈêØÊæ@ÌŞä@†äÊæèäŞÜ@ªæÊä@êÒÈÊ@ä`d\àÈÌˆ¨zP˜ŞÎÒÆRˆ¦¨z˜ŞÎÒÆšÌÎzP˜ŞÎÒÆR‚ Îz`¦èÈ†ÚÈz`ŒØè¨ÚàzbŒà†¦z`œêÚŒÒğÊÈ’ÜàêèæzdœêÚŒÒğÊÈêèàêèæzdœêÚŒÒğÊÈ ÂäÂÚæzbšÒÜ¬ÂäÒÂÄØÊ’Üàêèæz`šÒÜ¬ÂäÒÂÄØÊ’Üàêèæ˜Òæèdz`šÒÜ¬ÂäÒÂÄØÊ’Üàêèæ˜Òæèfz`šÒÜ¬ÂäÒÂÄØÊêèàêèæz`šÒÜ¬ÂäÒÂÄØÊêèàêèæ˜Òæèdz`šÒÜ¬ÂäÒÂÄØÊêèàêèæ˜Òæèfz`šÒÜ¬ÂäÒÂÄØÊ ÂäÂÚæz`¦òÚÄŞØ¨ä<d:Ê>zl’Üàêè¦ÒÎ¨òàÊbzˆÒÎÒèÂØø‚ÜÂØŞÎø¦ÊäÒÂØø¦èäÒÜÎ’Üàêè¦ÒÎ¨òàÊdz¦ÊäÒÂØ ÂäÂÚ¦ÒÎ¨òàÊbz¦èäÒÜÎ’Üàêè†êÊbz¶üªœª¦Šˆüº’Üàêè†êÊdz¤°H¾Œ¤š¾Œ„¾ ¤†Š<d:¦>¤êèàêè†êÊbz<d:†>ª ’Šˆ¾Œ„êèàêè†êÊdzªœ<d:†>ª ’Šˆ¾Œ„ ÂäÂÚ†êÊbz’œ¨Š¤‚¨’œ¾’ˆš àzb àbzbŒÒØÊœÂÚÊz˜êèäŞÜ@ŞÚÊîŞäÖæ@¢¦@¤ÂÈÒŞ@ Şîä@¦Âìä@ä`d\êÚÆŠÜÆŞÈÒÜÎ¨òàÊzf´ÊäŞÜ’ŞÖz`º¶ÄÔ¨àz¦Úzb¦Ú†zbjnœÚz†ÊÜèäÂØ@†ŞÜèäŞØ@šŞÈêØÊæÄÔ¬Êäzb†ŒzdÜb’zbÜbzbÚ’zbÚzbèzbÚ zb bzº¶ÄÔ¨àz¦Úzd¦Ú†zbjnœÚzœÊèîŞäÖ@šŞÈêØÊæÄÔ¬Êäzb†ŒzdÜb’zbÜbzbÚ’zbÚzbèzbÚ zb bzº¶ÄÔ¨àz¦Úzf¦Ú†zbjnœÚzŠèĞÊäÜÊèÄÔ¬Êäzb†ŒzdÜb’zbÜbzbÚ’zbÚzbèzbÚ zb bzº¶ÄÔ¨àz¦Úzh¦Ú†zbjlœÚz˜ŞÎÒÆÄÔ¬Êäzb†ŒzdÚ†zd†bzp†dznº¶ÄÔ¨àz¦Úzj¦Ú†zbjnœÚzˆÊÌÒÜÊ‚äÎêÚÊÜèæÄÔ¬Êäzb†ŒzdÜb’zbÜbzbÚ†zb†bzlÚ’zbÚzbèzbÚ zb bzº¶ÄÔ¨àz¦Úzl¦Ú†z<d:j>œÚz‚äÎêÚÊÜè@ˆÊÌÒÜÒèÒŞÜÄÔ¬Êäzb äzj†ŒzdÜb’zdÜbzdÚ’zd’bzbl’dzdfÚzdèzdbzbhdzbjÚ zb bz’œ¨Š¤‚¨’œ¾’ˆš àzb àbzbº¶ÄÔ¨àz¦Úzn¦Ú†zbrœÚz’ÜèÊäØŞÆÖÄÔ¬Êäzb äzh†ŒzdÜb’zhÜbzd†ÚÜbz˜ˆ@Œ„@Œ¤@˜‚¦¨@’œˆ’†‚¨’œ<d:¸>Ú’zh’fzl’hzpÚzdèzdbzbhdzbjº¶ÄÔ¨àz¦Úzp¦Ú†zb`bœÚz¦ÊäÒÂØ@’^ÄÔ¬Êäzb äzh†ŒzdÜb’zfÜbzfÚ’zf’bzdfÚzfèzfdzlfzpÚ zh bz dz fzDüˆŠ¬’†ŠX¸¶F’œ¨Š¤‚¨’œ¾’ˆ¸ºXdXf¸ÜD hzDüˆŠ¬’†ŠX¸¶F’œ¨Š¤‚¨’œ¾’ˆ¸ºXdXh¸ÜDº¶ÄÔ¨àz¦ÎzlœÚz<d:†>ª ’Šˆ¾’œº¶ÄÔ¨àz¦ÎzpœÚzªœ<d:†>ª ’Šˆ¾’œº¶ÄÔ¨àz¦ÎzbhœÚz<d:†>ª ’Šˆ¾Œ„º¶ÄÔ¨àz¦ÎzbjœÚzªœ<d:†>ª ’Šˆ¾Œ„º¶ÄÔ¨àz¦ÎzblœÚz¶üªœª¦Šˆüº¦Î¨àzfbº¶ÄÔ¨àz¦ÎzdfœÚz¤°H¾Œ¤š¾Œ„¾ ¤†Š<d:¦>¤¦Î¨àzhº¶ÄÔ¨àzˆàzb¨àzbœŞ¦zŒ‚˜¦ŠŠÜÆŒÚèz`ˆ¬˜Œzb¦ÎÜz`º

@@ -1,0 +1,3116 @@
+[
+ObjTp=FSgntr
+Sgntr=SGD
+RelVrs=1
+VTProeVer=5.9.04
+]
+;================================================================================
+[
+ObjTp=Hd
+ProjectFile=WILSHIRE IPAD.vtp
+VtpGuid=1E09C704-6E13-45F0-8CEB-BEE17C36B420
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON TAB-HSE AUDIO SOURCE1.ced
+Hint=BUTTON TAB-HSE AUDIO SOURCE1 (Smart Object ID=2)
+Code=1
+GUID=69E21AD8-276C-4DAB-A364-087A5043AC15
+SmplCName=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON TAB-HSE AUDIO SOURCE1.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=10
+MaxVariableInputs=10
+MinVariableOutputs=10
+MaxVariableOutputs=10
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Tab Button 5 Press
+OutputSigType9=Digital
+InputCue10=Tab Button 5 Select
+InputSigType10=Digital
+OutputCue10=[~UNUSED3~]
+OutputSigType10=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=1
+CedH=1
+SmartObjId=2d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=1
+Tp=1
+HD=TRUE
+DV=2d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=1
+Name=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON TAB-HSE AUDIO SOURCE1.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON LIST - HOUSE AUDIO ZONES.ced
+Hint=BUTTON LIST - HOUSE AUDIO ZONES (Smart Object ID=1)
+Code=2
+GUID=FB891525-BB26-405B-9275-0C38BDF29909
+SmplCName=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON LIST - HOUSE AUDIO ZONES.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=21
+MaxVariableInputs=21
+MinVariableOutputs=21
+MaxVariableOutputs=21
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=21
+MaxVariableInputsList3=21
+MinVariableOutputsList3=21
+MaxVariableOutputsList3=21
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Item 9 Pressed
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=Item 10 Pressed
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Item 11 Pressed
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Item 12 Pressed
+OutputSigType12=Digital
+InputCue13=[~UNUSED3~]
+InputSigType13=Digital
+OutputCue13=Item 13 Pressed
+OutputSigType13=Digital
+InputCue14=[~UNUSED3~]
+InputSigType14=Digital
+OutputCue14=Item 14 Pressed
+OutputSigType14=Digital
+InputCue15=[~UNUSED3~]
+InputSigType15=Digital
+OutputCue15=Item 15 Pressed
+OutputSigType15=Digital
+InputCue16=[~UNUSED3~]
+InputSigType16=Digital
+OutputCue16=Item 16 Pressed
+OutputSigType16=Digital
+InputCue17=[~UNUSED3~]
+InputSigType17=Digital
+OutputCue17=Item 17 Pressed
+OutputSigType17=Digital
+InputCue18=[~UNUSED3~]
+InputSigType18=Digital
+OutputCue18=Item 18 Pressed
+OutputSigType18=Digital
+InputCue19=[~UNUSED3~]
+InputSigType19=Digital
+OutputCue19=Item 19 Pressed
+OutputSigType19=Digital
+InputCue20=[~UNUSED3~]
+InputSigType20=Digital
+OutputCue20=Item 20 Pressed
+OutputSigType20=Digital
+InputCue21=[~UNUSED3~]
+InputSigType21=Digital
+OutputCue21=Item 21 Pressed
+OutputSigType21=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+InputList3Cue10=Item 10 Text
+InputList3SigType10=Serial
+OutputList3Cue10=[~UNUSED3~]
+OutputList3SigType10=Serial
+InputList3Cue11=Item 11 Text
+InputList3SigType11=Serial
+OutputList3Cue11=[~UNUSED3~]
+OutputList3SigType11=Serial
+InputList3Cue12=Item 12 Text
+InputList3SigType12=Serial
+OutputList3Cue12=[~UNUSED3~]
+OutputList3SigType12=Serial
+InputList3Cue13=Item 13 Text
+InputList3SigType13=Serial
+OutputList3Cue13=[~UNUSED3~]
+OutputList3SigType13=Serial
+InputList3Cue14=Item 14 Text
+InputList3SigType14=Serial
+OutputList3Cue14=[~UNUSED3~]
+OutputList3SigType14=Serial
+InputList3Cue15=Item 15 Text
+InputList3SigType15=Serial
+OutputList3Cue15=[~UNUSED3~]
+OutputList3SigType15=Serial
+InputList3Cue16=Item 16 Text
+InputList3SigType16=Serial
+OutputList3Cue16=[~UNUSED3~]
+OutputList3SigType16=Serial
+InputList3Cue17=Item 17 Text
+InputList3SigType17=Serial
+OutputList3Cue17=[~UNUSED3~]
+OutputList3SigType17=Serial
+InputList3Cue18=Item 18 Text
+InputList3SigType18=Serial
+OutputList3Cue18=[~UNUSED3~]
+OutputList3SigType18=Serial
+InputList3Cue19=Item 19 Text
+InputList3SigType19=Serial
+OutputList3Cue19=[~UNUSED3~]
+OutputList3SigType19=Serial
+InputList3Cue20=Item 20 Text
+InputList3SigType20=Serial
+OutputList3Cue20=[~UNUSED3~]
+OutputList3SigType20=Serial
+InputList3Cue21=Item 21 Text
+InputList3SigType21=Serial
+OutputList3Cue21=[~UNUSED3~]
+OutputList3SigType21=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=2
+CedH=2
+SmartObjId=1d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=2
+Tp=1
+HD=TRUE
+DV=1d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=2
+Name=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON LIST - HOUSE AUDIO ZONES.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON TAB-HSE AUDIO SOURCE2.ced
+Hint=BUTTON TAB-HSE AUDIO SOURCE2 (Smart Object ID=3)
+Code=3
+GUID=3EDDE5EC-C363-42A2-95F8-603A7B24A114
+SmplCName=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON TAB-HSE AUDIO SOURCE2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=10
+MaxVariableInputs=10
+MinVariableOutputs=10
+MaxVariableOutputs=10
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Tab Button 5 Press
+OutputSigType9=Digital
+InputCue10=Tab Button 5 Select
+InputSigType10=Digital
+OutputCue10=[~UNUSED3~]
+OutputSigType10=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=3
+CedH=3
+SmartObjId=3d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=3
+Tp=1
+HD=TRUE
+DV=3d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=3
+Name=WILSHIRE IPAD_BB - HOME AUDIO_BUTTON TAB-HSE AUDIO SOURCE2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM SOURCE 2.ced
+Hint=BUTTON TAB-MEDIARM SOURCE 2 (Smart Object ID=5)
+Code=4
+GUID=ACC55A65-DC76-44DE-9C2B-04E6D1F24BA8
+SmplCName=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM SOURCE 2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Tab Button 5 Press
+OutputSigType9=Digital
+InputCue10=Tab Button 5 Select
+InputSigType10=Digital
+OutputCue10=[~UNUSED3~]
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Tab Button 6 Press
+OutputSigType11=Digital
+InputCue12=Tab Button 6 Select
+InputSigType12=Digital
+OutputCue12=[~UNUSED3~]
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=4
+CedH=4
+SmartObjId=5d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=4
+Tp=1
+HD=TRUE
+DV=5d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=4
+Name=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM SOURCE 2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM SOURCE 1.ced
+Hint=BUTTON TAB-MEDIARM SOURCE 1 (Smart Object ID=4)
+Code=5
+GUID=3ED91233-2F19-423E-90D5-7B64AB76FD47
+SmplCName=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM SOURCE 1.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Tab Button 5 Press
+OutputSigType9=Digital
+InputCue10=Tab Button 5 Select
+InputSigType10=Digital
+OutputCue10=[~UNUSED3~]
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Tab Button 6 Press
+OutputSigType11=Digital
+InputCue12=Tab Button 6 Select
+InputSigType12=Digital
+OutputCue12=[~UNUSED3~]
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=5
+CedH=5
+SmartObjId=4d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=5
+Tp=1
+HD=TRUE
+DV=4d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=5
+Name=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM SOURCE 1.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM TV SELECT.ced
+Hint=BUTTON TAB-MEDIARM TV SELECT (Smart Object ID=6)
+Code=6
+GUID=7756EFDC-A437-4D33-BC1F-4EE6171444A5
+SmplCName=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM TV SELECT.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10074
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=6
+MaxVariableOutputs=6
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=6
+CedH=6
+SmartObjId=6d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=6
+Tp=1
+HD=TRUE
+DV=6d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=6
+Name=WILSHIRE IPAD_C - MEDIA ROOM_BUTTON TAB-MEDIARM TV SELECT.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_DPad - MEDIA DTV.ced
+Hint=DPad - MEDIA DTV (Smart Object ID=7)
+Code=7
+GUID=FAEA7798-D504-40FE-9C8C-4ED8CDD5BC52
+SmplCName=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_DPad - MEDIA DTV.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Right
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Down
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Left
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=OK
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=7
+CedH=7
+SmartObjId=7d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=7
+Tp=1
+HD=TRUE
+DV=7d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=7
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_DPad - MEDIA DTV.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Keypad - MEDIA DTV.ced
+Hint=Keypad - MEDIA DTV (Smart Object ID=9)
+Code=8
+GUID=5AC3207A-1F92-4B4F-9655-AF7D8A09E216
+SmplCName=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Keypad - MEDIA DTV.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10061
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=1
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=2
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=3
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=4
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=5
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=6
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=-
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Enter
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=8
+CedH=8
+SmartObjId=9d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=8
+Tp=1
+HD=TRUE
+DV=9d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=8
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Keypad - MEDIA DTV.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV FAV.ced
+Hint=Tab Button-MEDIA DTV FAV (Smart Object ID=13)
+Code=9
+GUID=63924F2C-1C51-4DDD-A242-7023607A72FD
+SmplCName=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV FAV.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10008
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=35
+MaxVariableInputs=35
+MinVariableOutputs=35
+MaxVariableOutputs=35
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=35
+MaxVariableInputsList3=35
+MinVariableOutputsList3=35
+MaxVariableOutputsList3=35
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Item 9 Pressed
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=Item 10 Pressed
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Item 11 Pressed
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Item 12 Pressed
+OutputSigType12=Digital
+InputCue13=[~UNUSED3~]
+InputSigType13=Digital
+OutputCue13=Item 13 Pressed
+OutputSigType13=Digital
+InputCue14=[~UNUSED3~]
+InputSigType14=Digital
+OutputCue14=Item 14 Pressed
+OutputSigType14=Digital
+InputCue15=[~UNUSED3~]
+InputSigType15=Digital
+OutputCue15=Item 15 Pressed
+OutputSigType15=Digital
+InputCue16=[~UNUSED3~]
+InputSigType16=Digital
+OutputCue16=Item 16 Pressed
+OutputSigType16=Digital
+InputCue17=[~UNUSED3~]
+InputSigType17=Digital
+OutputCue17=Item 17 Pressed
+OutputSigType17=Digital
+InputCue18=[~UNUSED3~]
+InputSigType18=Digital
+OutputCue18=Item 18 Pressed
+OutputSigType18=Digital
+InputCue19=[~UNUSED3~]
+InputSigType19=Digital
+OutputCue19=Item 19 Pressed
+OutputSigType19=Digital
+InputCue20=[~UNUSED3~]
+InputSigType20=Digital
+OutputCue20=Item 20 Pressed
+OutputSigType20=Digital
+InputCue21=[~UNUSED3~]
+InputSigType21=Digital
+OutputCue21=Item 21 Pressed
+OutputSigType21=Digital
+InputCue22=[~UNUSED3~]
+InputSigType22=Digital
+OutputCue22=Item 22 Pressed
+OutputSigType22=Digital
+InputCue23=[~UNUSED3~]
+InputSigType23=Digital
+OutputCue23=Item 23 Pressed
+OutputSigType23=Digital
+InputCue24=[~UNUSED3~]
+InputSigType24=Digital
+OutputCue24=Item 24 Pressed
+OutputSigType24=Digital
+InputCue25=[~UNUSED3~]
+InputSigType25=Digital
+OutputCue25=Item 25 Pressed
+OutputSigType25=Digital
+InputCue26=[~UNUSED3~]
+InputSigType26=Digital
+OutputCue26=Item 26 Pressed
+OutputSigType26=Digital
+InputCue27=[~UNUSED3~]
+InputSigType27=Digital
+OutputCue27=Item 27 Pressed
+OutputSigType27=Digital
+InputCue28=[~UNUSED3~]
+InputSigType28=Digital
+OutputCue28=Item 28 Pressed
+OutputSigType28=Digital
+InputCue29=[~UNUSED3~]
+InputSigType29=Digital
+OutputCue29=Item 29 Pressed
+OutputSigType29=Digital
+InputCue30=[~UNUSED3~]
+InputSigType30=Digital
+OutputCue30=Item 30 Pressed
+OutputSigType30=Digital
+InputCue31=[~UNUSED3~]
+InputSigType31=Digital
+OutputCue31=Item 31 Pressed
+OutputSigType31=Digital
+InputCue32=[~UNUSED3~]
+InputSigType32=Digital
+OutputCue32=Item 32 Pressed
+OutputSigType32=Digital
+InputCue33=[~UNUSED3~]
+InputSigType33=Digital
+OutputCue33=Item 33 Pressed
+OutputSigType33=Digital
+InputCue34=[~UNUSED3~]
+InputSigType34=Digital
+OutputCue34=Item 34 Pressed
+OutputSigType34=Digital
+InputCue35=[~UNUSED3~]
+InputSigType35=Digital
+OutputCue35=Item 35 Pressed
+OutputSigType35=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+InputList3Cue10=Item 10 Text
+InputList3SigType10=Serial
+OutputList3Cue10=[~UNUSED3~]
+OutputList3SigType10=Serial
+InputList3Cue11=Item 11 Text
+InputList3SigType11=Serial
+OutputList3Cue11=[~UNUSED3~]
+OutputList3SigType11=Serial
+InputList3Cue12=Item 12 Text
+InputList3SigType12=Serial
+OutputList3Cue12=[~UNUSED3~]
+OutputList3SigType12=Serial
+InputList3Cue13=Item 13 Text
+InputList3SigType13=Serial
+OutputList3Cue13=[~UNUSED3~]
+OutputList3SigType13=Serial
+InputList3Cue14=Item 14 Text
+InputList3SigType14=Serial
+OutputList3Cue14=[~UNUSED3~]
+OutputList3SigType14=Serial
+InputList3Cue15=Item 15 Text
+InputList3SigType15=Serial
+OutputList3Cue15=[~UNUSED3~]
+OutputList3SigType15=Serial
+InputList3Cue16=Item 16 Text
+InputList3SigType16=Serial
+OutputList3Cue16=[~UNUSED3~]
+OutputList3SigType16=Serial
+InputList3Cue17=Item 17 Text
+InputList3SigType17=Serial
+OutputList3Cue17=[~UNUSED3~]
+OutputList3SigType17=Serial
+InputList3Cue18=Item 18 Text
+InputList3SigType18=Serial
+OutputList3Cue18=[~UNUSED3~]
+OutputList3SigType18=Serial
+InputList3Cue19=Item 19 Text
+InputList3SigType19=Serial
+OutputList3Cue19=[~UNUSED3~]
+OutputList3SigType19=Serial
+InputList3Cue20=Item 20 Text
+InputList3SigType20=Serial
+OutputList3Cue20=[~UNUSED3~]
+OutputList3SigType20=Serial
+InputList3Cue21=Item 21 Text
+InputList3SigType21=Serial
+OutputList3Cue21=[~UNUSED3~]
+OutputList3SigType21=Serial
+InputList3Cue22=Item 22 Text
+InputList3SigType22=Serial
+OutputList3Cue22=[~UNUSED3~]
+OutputList3SigType22=Serial
+InputList3Cue23=Item 23 Text
+InputList3SigType23=Serial
+OutputList3Cue23=[~UNUSED3~]
+OutputList3SigType23=Serial
+InputList3Cue24=Item 24 Text
+InputList3SigType24=Serial
+OutputList3Cue24=[~UNUSED3~]
+OutputList3SigType24=Serial
+InputList3Cue25=Item 25 Text
+InputList3SigType25=Serial
+OutputList3Cue25=[~UNUSED3~]
+OutputList3SigType25=Serial
+InputList3Cue26=Item 26 Text
+InputList3SigType26=Serial
+OutputList3Cue26=[~UNUSED3~]
+OutputList3SigType26=Serial
+InputList3Cue27=Item 27 Text
+InputList3SigType27=Serial
+OutputList3Cue27=[~UNUSED3~]
+OutputList3SigType27=Serial
+InputList3Cue28=Item 28 Text
+InputList3SigType28=Serial
+OutputList3Cue28=[~UNUSED3~]
+OutputList3SigType28=Serial
+InputList3Cue29=Item 29 Text
+InputList3SigType29=Serial
+OutputList3Cue29=[~UNUSED3~]
+OutputList3SigType29=Serial
+InputList3Cue30=Item 30 Text
+InputList3SigType30=Serial
+OutputList3Cue30=[~UNUSED3~]
+OutputList3SigType30=Serial
+InputList3Cue31=Item 31 Text
+InputList3SigType31=Serial
+OutputList3Cue31=[~UNUSED3~]
+OutputList3SigType31=Serial
+InputList3Cue32=Item 32 Text
+InputList3SigType32=Serial
+OutputList3Cue32=[~UNUSED3~]
+OutputList3SigType32=Serial
+InputList3Cue33=Item 33 Text
+InputList3SigType33=Serial
+OutputList3Cue33=[~UNUSED3~]
+OutputList3SigType33=Serial
+InputList3Cue34=Item 34 Text
+InputList3SigType34=Serial
+OutputList3Cue34=[~UNUSED3~]
+OutputList3SigType34=Serial
+InputList3Cue35=Item 35 Text
+InputList3SigType35=Serial
+OutputList3Cue35=[~UNUSED3~]
+OutputList3SigType35=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=9
+CedH=9
+SmartObjId=13d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=9
+Tp=1
+HD=TRUE
+DV=13d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=9
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV FAV.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button - MEDIA DTV.ced
+Hint=Tab Button - MEDIA DTV (Smart Object ID=8)
+Code=10
+GUID=D8B7C8F9-CF1F-4F7E-84BD-8146FB596F9A
+SmplCName=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button - MEDIA DTV.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10074
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=10
+CedH=10
+SmartObjId=8d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=10
+Tp=1
+HD=TRUE
+DV=8d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=10
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button - MEDIA DTV.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV TRANS2.ced
+Hint=Tab Button-MEDIA DTV TRANS2 (Smart Object ID=12)
+Code=11
+GUID=0F05F59F-43C8-4772-8A94-4CE592160282
+SmplCName=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV TRANS2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=11
+CedH=11
+SmartObjId=12d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=11
+Tp=1
+HD=TRUE
+DV=12d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=11
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV TRANS2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV TRANS.ced
+Hint=Tab Button-MEDIA DTV TRANS (Smart Object ID=11)
+Code=12
+GUID=3ACF6105-8B47-452C-946D-F3233639DAFF
+SmplCName=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV TRANS.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=12
+CedH=12
+SmartObjId=11d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=12
+Tp=1
+HD=TRUE
+DV=11d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=12
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV TRANS.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV COLOR.ced
+Hint=Tab Button-MEDIA DTV COLOR (Smart Object ID=10)
+Code=13
+GUID=84ED2832-B89A-4603-B045-0C8828A74AFB
+SmplCName=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV COLOR.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=13
+CedH=13
+SmartObjId=10d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=13
+Tp=1
+HD=TRUE
+DV=10d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=13
+Name=WILSHIRE IPAD_CC - MEDIA RM SOURCE DTV_Tab Button-MEDIA DTV COLOR.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_DPad - MEDIA BRAY.ced
+Hint=DPad - MEDIA BRAY (Smart Object ID=14)
+Code=14
+GUID=94141007-2EC5-4364-A91F-A30D45B3700F
+SmplCName=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_DPad - MEDIA BRAY.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Right
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Down
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Left
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=OK
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=14
+CedH=14
+SmartObjId=14d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=14
+Tp=1
+HD=TRUE
+DV=14d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=14
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_DPad - MEDIA BRAY.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Keypad - MEDIA BRAY.ced
+Hint=Keypad - MEDIA BRAY (Smart Object ID=16)
+Code=15
+GUID=F643F013-9C0E-4DCB-98C0-525FAB48466E
+SmplCName=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Keypad - MEDIA BRAY.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10061
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=1
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=2
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=3
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=4
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=5
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=6
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Clear
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Enter
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=15
+CedH=15
+SmartObjId=16d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=15
+Tp=1
+HD=TRUE
+DV=16d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=15
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Keypad - MEDIA BRAY.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button - MEDIA BRAY.ced
+Hint=Tab Button - MEDIA BRAY (Smart Object ID=15)
+Code=16
+GUID=F758FB98-5409-4B44-A276-7C8291A064D3
+SmplCName=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button - MEDIA BRAY.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10074
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=16
+CedH=16
+SmartObjId=15d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=16
+Tp=1
+HD=TRUE
+DV=15d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=16
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button - MEDIA BRAY.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY TRANS2.ced
+Hint=Tab Button-MEDIA BRAY TRANS2 (Smart Object ID=19)
+Code=17
+GUID=59887037-5442-4F1E-90FB-A5E6DFEFA6C0
+SmplCName=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY TRANS2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=17
+CedH=17
+SmartObjId=19d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=17
+Tp=1
+HD=TRUE
+DV=19d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=17
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY TRANS2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY TRANS.ced
+Hint=Tab Button-MEDIA BRAY TRANS (Smart Object ID=18)
+Code=18
+GUID=4FAD7B40-8308-4505-86F0-A3B3957BEFA6
+SmplCName=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY TRANS.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=18
+CedH=18
+SmartObjId=18d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=18
+Tp=1
+HD=TRUE
+DV=18d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=18
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY TRANS.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY COLOR.ced
+Hint=Tab Button-MEDIA BRAY COLOR (Smart Object ID=17)
+Code=19
+GUID=3076E9C0-9661-4F9D-B8E4-91D2BA75F648
+SmplCName=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY COLOR.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=19
+CedH=19
+SmartObjId=17d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=19
+Tp=1
+HD=TRUE
+DV=17d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=19
+Name=WILSHIRE IPAD_CD - MEDIA RM SOURCE BRAY_Tab Button-MEDIA BRAY COLOR.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CE - MEDIA RM MMS BASIC CONTROL_Tab Button-MEDIA MMS TRANS2.ced
+Hint=Tab Button-MEDIA MMS TRANS2 (Smart Object ID=22)
+Code=20
+GUID=112112DC-1DC9-49B0-A663-4AF3DC850F2E
+SmplCName=WILSHIRE IPAD_CE - MEDIA RM MMS BASIC CONTROL_Tab Button-MEDIA MMS TRANS2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=20
+CedH=20
+SmartObjId=22d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=20
+Tp=1
+HD=TRUE
+DV=22d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=20
+Name=WILSHIRE IPAD_CE - MEDIA RM MMS BASIC CONTROL_Tab Button-MEDIA MMS TRANS2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CE - MEDIA RM MMS BASIC CONTROL_Tab Button-MEDIA MMS TRANS.ced
+Hint=Tab Button-MEDIA MMS TRANS (Smart Object ID=21)
+Code=21
+GUID=53622E34-298C-4E2B-BE3B-4695D7338615
+SmplCName=WILSHIRE IPAD_CE - MEDIA RM MMS BASIC CONTROL_Tab Button-MEDIA MMS TRANS.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=8
+MaxVariableInputs=8
+MinVariableOutputs=8
+MaxVariableOutputs=8
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=21
+CedH=21
+SmartObjId=21d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=21
+Tp=1
+HD=TRUE
+DV=21d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=21
+Name=WILSHIRE IPAD_CE - MEDIA RM MMS BASIC CONTROL_Tab Button-MEDIA MMS TRANS.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_ZZ -MEDIA PLAYER APP_Media Player Application.ced
+Hint=Media Player Application (Smart Object ID=20)
+Code=22
+GUID=2C3FBBEF-7A57-4F42-905E-6A037E5EA229
+SmplCName=WILSHIRE IPAD_ZZ -MEDIA PLAYER APP_Media Player Application.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10040
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=3
+MaxVariableInputs=3
+MinVariableOutputs=3
+MaxVariableOutputs=3
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=3
+MaxVariableInputsList3=3
+MinVariableOutputsList3=3
+MaxVariableOutputsList3=3
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=Refresh
+InputSigType1=Digital
+OutputCue1=[~UNUSED3~]
+OutputSigType1=Digital
+InputCue2=Offline
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=Use_Message
+InputSigType3=Digital
+OutputCue3=[~UNUSED3~]
+OutputSigType3=Digital
+InputList3Cue1=CRPC_FB
+InputList3SigType1=Serial
+OutputList3Cue1=CRPC
+OutputList3SigType1=Serial
+InputList3Cue2=Player_Name
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Message_FB
+InputList3SigType3=Serial
+OutputList3Cue3=Message
+OutputList3SigType3=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=22
+CedH=22
+SmartObjId=20d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=22
+Tp=1
+HD=TRUE
+DV=20d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=22
+Name=WILSHIRE IPAD_ZZ -MEDIA PLAYER APP_Media Player Application.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+CedMod=Media Server Object Router v3.0.cmc
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_DPad - MEDIA BRAY.ced
+Hint=DPad - MEDIA BRAY (Smart Object ID=23)
+Code=23
+GUID=EC3F5B59-628D-4DE5-B2F5-16FCB0612F98
+SmplCName=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_DPad - MEDIA BRAY.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Right
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Down
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Left
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=OK
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=23
+CedH=23
+SmartObjId=23d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=23
+Tp=1
+HD=TRUE
+DV=23d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=23
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_DPad - MEDIA BRAY.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button - MEDIA ATV.ced
+Hint=Tab Button - MEDIA ATV (Smart Object ID=24)
+Code=24
+GUID=46F543E1-798A-4CD2-AE1B-01167BCF4CDB
+SmplCName=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button - MEDIA ATV.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10074
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=24
+CedH=24
+SmartObjId=24d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=24
+Tp=1
+HD=TRUE
+DV=24d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=24
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button - MEDIA ATV.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button-MEDIA ATV TRANS2.ced
+Hint=Tab Button-MEDIA ATV TRANS2 (Smart Object ID=26)
+Code=25
+GUID=A00274FB-EA67-43E3-911A-F3F045930B1E
+SmplCName=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button-MEDIA ATV TRANS2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=25
+CedH=25
+SmartObjId=26d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=25
+Tp=1
+HD=TRUE
+DV=26d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=25
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button-MEDIA ATV TRANS2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button-MEDIA ATV TRANS.ced
+Hint=Tab Button-MEDIA ATV TRANS (Smart Object ID=25)
+Code=26
+GUID=EC8AD1A3-D9B3-4077-AD6D-840F07FF3298
+SmplCName=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button-MEDIA ATV TRANS.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=26
+CedH=26
+SmartObjId=25d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=26
+Tp=1
+HD=TRUE
+DV=25d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=26
+Name=WILSHIRE IPAD_CG - MEDIA RM SOURCE ATV_Tab Button-MEDIA ATV TRANS.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CH - MEDIA RM SOURCE DTV MUSIC_Tab Button-MEDIA DTV MUSIC.ced
+Hint=Tab Button-MEDIA DTV MUSIC (Smart Object ID=27)
+Code=27
+GUID=0AEF86C6-D3AC-4FD2-B24C-7D93EDFB2500
+SmplCName=WILSHIRE IPAD_CH - MEDIA RM SOURCE DTV MUSIC_Tab Button-MEDIA DTV MUSIC.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=25
+MaxVariableInputs=25
+MinVariableOutputs=25
+MaxVariableOutputs=25
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=25
+MaxVariableInputsList3=25
+MinVariableOutputsList3=25
+MaxVariableOutputsList3=25
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Item 9 Pressed
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=Item 10 Pressed
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Item 11 Pressed
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Item 12 Pressed
+OutputSigType12=Digital
+InputCue13=[~UNUSED3~]
+InputSigType13=Digital
+OutputCue13=Item 13 Pressed
+OutputSigType13=Digital
+InputCue14=[~UNUSED3~]
+InputSigType14=Digital
+OutputCue14=Item 14 Pressed
+OutputSigType14=Digital
+InputCue15=[~UNUSED3~]
+InputSigType15=Digital
+OutputCue15=Item 15 Pressed
+OutputSigType15=Digital
+InputCue16=[~UNUSED3~]
+InputSigType16=Digital
+OutputCue16=Item 16 Pressed
+OutputSigType16=Digital
+InputCue17=[~UNUSED3~]
+InputSigType17=Digital
+OutputCue17=Item 17 Pressed
+OutputSigType17=Digital
+InputCue18=[~UNUSED3~]
+InputSigType18=Digital
+OutputCue18=Item 18 Pressed
+OutputSigType18=Digital
+InputCue19=[~UNUSED3~]
+InputSigType19=Digital
+OutputCue19=Item 19 Pressed
+OutputSigType19=Digital
+InputCue20=[~UNUSED3~]
+InputSigType20=Digital
+OutputCue20=Item 20 Pressed
+OutputSigType20=Digital
+InputCue21=[~UNUSED3~]
+InputSigType21=Digital
+OutputCue21=Item 21 Pressed
+OutputSigType21=Digital
+InputCue22=[~UNUSED3~]
+InputSigType22=Digital
+OutputCue22=Item 22 Pressed
+OutputSigType22=Digital
+InputCue23=[~UNUSED3~]
+InputSigType23=Digital
+OutputCue23=Item 23 Pressed
+OutputSigType23=Digital
+InputCue24=[~UNUSED3~]
+InputSigType24=Digital
+OutputCue24=Item 24 Pressed
+OutputSigType24=Digital
+InputCue25=[~UNUSED3~]
+InputSigType25=Digital
+OutputCue25=Item 25 Pressed
+OutputSigType25=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+InputList3Cue10=Item 10 Text
+InputList3SigType10=Serial
+OutputList3Cue10=[~UNUSED3~]
+OutputList3SigType10=Serial
+InputList3Cue11=Item 11 Text
+InputList3SigType11=Serial
+OutputList3Cue11=[~UNUSED3~]
+OutputList3SigType11=Serial
+InputList3Cue12=Item 12 Text
+InputList3SigType12=Serial
+OutputList3Cue12=[~UNUSED3~]
+OutputList3SigType12=Serial
+InputList3Cue13=Item 13 Text
+InputList3SigType13=Serial
+OutputList3Cue13=[~UNUSED3~]
+OutputList3SigType13=Serial
+InputList3Cue14=Item 14 Text
+InputList3SigType14=Serial
+OutputList3Cue14=[~UNUSED3~]
+OutputList3SigType14=Serial
+InputList3Cue15=Item 15 Text
+InputList3SigType15=Serial
+OutputList3Cue15=[~UNUSED3~]
+OutputList3SigType15=Serial
+InputList3Cue16=Item 16 Text
+InputList3SigType16=Serial
+OutputList3Cue16=[~UNUSED3~]
+OutputList3SigType16=Serial
+InputList3Cue17=Item 17 Text
+InputList3SigType17=Serial
+OutputList3Cue17=[~UNUSED3~]
+OutputList3SigType17=Serial
+InputList3Cue18=Item 18 Text
+InputList3SigType18=Serial
+OutputList3Cue18=[~UNUSED3~]
+OutputList3SigType18=Serial
+InputList3Cue19=Item 19 Text
+InputList3SigType19=Serial
+OutputList3Cue19=[~UNUSED3~]
+OutputList3SigType19=Serial
+InputList3Cue20=Item 20 Text
+InputList3SigType20=Serial
+OutputList3Cue20=[~UNUSED3~]
+OutputList3SigType20=Serial
+InputList3Cue21=Item 21 Text
+InputList3SigType21=Serial
+OutputList3Cue21=[~UNUSED3~]
+OutputList3SigType21=Serial
+InputList3Cue22=Item 22 Text
+InputList3SigType22=Serial
+OutputList3Cue22=[~UNUSED3~]
+OutputList3SigType22=Serial
+InputList3Cue23=Item 23 Text
+InputList3SigType23=Serial
+OutputList3Cue23=[~UNUSED3~]
+OutputList3SigType23=Serial
+InputList3Cue24=Item 24 Text
+InputList3SigType24=Serial
+OutputList3Cue24=[~UNUSED3~]
+OutputList3SigType24=Serial
+InputList3Cue25=Item 25 Text
+InputList3SigType25=Serial
+OutputList3Cue25=[~UNUSED3~]
+OutputList3SigType25=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=27
+CedH=27
+SmartObjId=27d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=27
+Tp=1
+HD=TRUE
+DV=27d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=27
+Name=WILSHIRE IPAD_CH - MEDIA RM SOURCE DTV MUSIC_Tab Button-MEDIA DTV MUSIC.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CI - MEDIA RM SOURCE VCR_Tab Button-MEDIA VCR TRANS2.ced
+Hint=Tab Button-MEDIA VCR TRANS2 (Smart Object ID=29)
+Code=28
+GUID=1E749185-784F-4D1C-9304-71461963192A
+SmplCName=WILSHIRE IPAD_CI - MEDIA RM SOURCE VCR_Tab Button-MEDIA VCR TRANS2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=28
+CedH=28
+SmartObjId=29d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=28
+Tp=1
+HD=TRUE
+DV=29d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=28
+Name=WILSHIRE IPAD_CI - MEDIA RM SOURCE VCR_Tab Button-MEDIA VCR TRANS2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=WILSHIRE IPAD_CI - MEDIA RM SOURCE VCR_Tab Button-MEDIA VCR TRANS.ced
+Hint=Tab Button-MEDIA VCR TRANS (Smart Object ID=28)
+Code=29
+GUID=F441C0BE-AE9B-4F04-A8B2-5764A31889A7
+SmplCName=WILSHIRE IPAD_CI - MEDIA RM SOURCE VCR_Tab Button-MEDIA VCR TRANS.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=6
+MaxVariableInputs=6
+MinVariableOutputs=6
+MaxVariableOutputs=6
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=29
+CedH=29
+SmartObjId=28d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=29
+Tp=1
+HD=TRUE
+DV=28d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=29
+Name=WILSHIRE IPAD_CI - MEDIA RM SOURCE VCR_Tab Button-MEDIA VCR TRANS.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]

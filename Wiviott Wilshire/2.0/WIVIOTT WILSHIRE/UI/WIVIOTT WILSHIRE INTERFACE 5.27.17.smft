@@ -1,0 +1,67 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CNRFGWA" DeviceId="03" Name="CNRFGWA[HIS SPA]">
+         <Network Type="RF"/>
+      </Device>
+      <Device Model="CNRFGW" DeviceId="04" Name="CNRFGW [GATEWAY 433 02][HER BATH]"/>
+      <Device Model="C2N-CBD-P" DeviceId="11" Name="C2N-CBD-P [KP01][FUTURE]"/>
+      <Device Model="C2N-CBD-P" DeviceId="12" Name="C2N-CBD-P [KP02][HISOFFICE]"/>
+      <Device Model="C2N-CBD-P" DeviceId="13" Name="C2N-CBD-P [KP03][STUDY]"/>
+      <Device Model="C2N-CBD-P" DeviceId="14" Name="C2N-CBD-P [KP04][KITCHEN]"/>
+      <Device Model="C2N-CBD-P" DeviceId="15" Name="C2N-CBD-P [KP05][NOOK]"/>
+      <Device Model="C2N-CBD-P" DeviceId="16" Name="C2N-CBD-P [KP06][MASTER BED HIS]"/>
+      <Device Model="C2N-CBD-P" DeviceId="17" Name="C2N-CBD-P [KP07][SAUNA]"/>
+      <Device Model="C2N-CBD-P" DeviceId="18" Name="C2N-CBD-P [KP08][FUTURE]"/>
+      <Device Model="C2N-CBD-P" DeviceId="19" Name="C2N-CBD-P [KP09][HISBATH]"/>
+      <Device Model="C2N-CBD-P" DeviceId="1A" Name="C2N-CBD-P [KP06B][MASTER BED HER]"/>
+      <Device Model="C2N-CBD-P" DeviceId="20" Name="C2N-CBD-P [KP10][POWDER]"/>
+      <Device Model="C2N-CBD-P" DeviceId="21" Name="C2N-CBD-P [KP11][BAR]"/>
+      <Device Model="C2N-CBD-P" DeviceId="22" Name="C2N-CBD-P [KP12][DINING]"/>
+      <Device Model="C2N-CBD-P" DeviceId="23" Name="C2N-CBD-P [KP13][FAMILY]"/>
+      <Device Model="C2N-CBD-P" DeviceId="24" Name="C2N-CBD-P [KP14][POWDER MEDIA]"/>
+      <Device Model="C2N-CBD-P" DeviceId="25" Name="C2N-CBD-P [KP15][HALL NORTH]"/>
+      <Device Model="C2N-CBD-P" DeviceId="26" Name="C2N-CBD-P [KP16][HALL SOUTH]"/>
+      <Device Model="C2N-CBD-P" DeviceId="27" Name="C2N-CBD-P [KP17][FUTURE]"/>
+      <Device Model="C2N-CBD-P" DeviceId="28" Name="C2N-CBD-P [KP18][FUTURE]"/>
+      <Device Model="C2N-CBD-P" DeviceId="29" Name="C2N-CBD-P [KP19][HERCLOSET LEFT]"/>
+      <Device Model="C2N-CBD-P" DeviceId="2A" Name="C2N-CBD-P [KP19B][HERCLOSET RIGHT]"/>
+      <Device Model="C2N-CBD-P" DeviceId="30" Name="C2N-CBD-P [KP20][HER BATH]"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-RFGW-EX (Ethernet)" DeviceId="15" Name="CEN-RFGW-EX [GATEWAY01][LAUNDRY CLOSET]">
+         <Network Type="RF">
+            <Device Model="MTX-3" DeviceId="0A" Name="MTX-3[TPR02][HIS OFFICE]"/>
+            <Device Model="MTX-3" DeviceId="0B" Name="MTX-3[TPR03][STUDY]"/>
+            <Device Model="HR-150" DeviceId="11" Name="MTX-3[TPR12][STUDY]"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-RFGW-EX (Ethernet)" DeviceId="16" Name="CEN-RFGW-EX [GATEWAY02][NOOK]">
+         <Network Type="RF">
+            <Device Model="MTX-3" DeviceId="0C" Name="MTX-3[TPR04][KITCHEN]"/>
+            <Device Model="MTX-3" DeviceId="0D" Name="MTX-3[TPR05][NOOK]"/>
+            <Device Model="HR-150" DeviceId="11" Name="HR-150 [TPR10][KITCHEN]"/>
+            <Device Model="HR-150" DeviceId="12" Name="HR-150 [TPR11][NOOK]"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-RFGW-EX (Ethernet)" DeviceId="17" Name="CEN-RFGW-EX [GATEWAY03][MASTERBED]">
+         <Network Type="RF">
+            <Device Model="MTX-3" DeviceId="09" Name="MTX-3[TPR07][HIS BATH]"/>
+            <Device Model="MTX-3" DeviceId="0E" Name="MTX-3[TPR06][MASTER BED]"/>
+            <Device Model="HR-150" DeviceId="11" Name="HR-150 [TPR14][MASTERBED]"/>
+            <Device Model="INET-IOEX-IRCOM" DeviceId="20"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-ERFGW-POE (Ethernet)" DeviceId="18" Name="CEN-ERFGW-POE [GATEWAY04][MEDIA][NOTUSED]">
+         <Network Type="RF">
+            <Device Model="TST-600 (RF)" DeviceId="03"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-RFGW-EX (Ethernet)" DeviceId="19" Name="CEN-RFGW-EX [GATEWAY05][MEDIA]">
+         <Network Type="RF">
+            <Device Model="HR-150" DeviceId="11" Name="HR-150 [TPR13][MEDIARM]"/>
+         </Network>
+      </Device>
+      <Device Model="Crestron App" DeviceId="FD" Name="Crestron App [TPR01]"/>
+      <Device Model="XPanel 2.0 Smart Graphics" DeviceId="FE" Name="XPanel 2.0 Smart Graphics [TP01]"/>
+   </Network>
+</Device>

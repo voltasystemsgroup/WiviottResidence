@@ -1,0 +1,16 @@
+Crosspoint listing for C:\Users\Patrick Liedtke\Documents\Crestron Client Programs\Clients\WIVIOTT WILSHIRE\WIVIOTT WILSHIRE\AV\WIVIOTT WILSHIRE AV 1.0.SMW
+
+Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
+       Crosspoint values are restricted to 0d through 59999d.  60000d and above is reserved for usage by processor firmware.
+
+Equipment Crosspoint Routing.                                                                       EquipID
+===========================================================================================================
+S-18.1 in macro S-6.11.2:S-2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\A          50000
+MFM (CEN-TRACK) Hardware Interface v2.0.cmc)                                                        
+S-18.1 in macro S-6.11.2:S-3 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\A          50001
+MFM2 (CEN-TRACK) Hardware Interface v2.0.cmc)                                                       
+
+Control Crosspoint Routing.                                                                         ControlID
+=============================================================================================================
+No symbols of this type found in the program
+
